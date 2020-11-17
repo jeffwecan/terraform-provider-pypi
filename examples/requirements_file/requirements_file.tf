@@ -10,6 +10,6 @@ data "pypi_requirements_file" "requirements" {
 
 data "archive_file" "peer_removal" {
   type        = "zip"
-  source_dir =  "${path.module}/mah_requirements"
+  source_dir  = "${path.module}/mah_requirements"
   output_path = "${path.module}/python_lambda.zip"
 }
