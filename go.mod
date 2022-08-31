@@ -9,7 +9,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.0 // indirect
 	github.com/hashicorp/go-uuid v1.0.2 // indirect
 	github.com/hashicorp/terraform-plugin-sdk v1.13.0
-	github.com/jeffwecan/go-pypi v0.0.3
+	github.com/jeffwecan/go-pypi v0.0.5
 	github.com/kr/pretty v0.2.0 // indirect
 	github.com/mattn/go-colorable v0.1.7 // indirect
 	github.com/stretchr/testify v1.5.1 // indirect
@@ -22,4 +22,4 @@ require (
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
 
-replace github.com/jeffwecan/go-pypi => ../go-pypi
+// replace github.com/jeffwecan/go-pypi => ../go-pypi
